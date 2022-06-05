@@ -14,7 +14,7 @@ We have :
 * **Tools module**, contains several uselful tools, especially for the SDL library manipulation.
 
 
-[title-img]:http://cultofmartians.com/assets/badges/badge.svg
+[title-img]:https://img.shields.io/badge/-Bictole-pink
 [profile]:https://github.com/bictole
 
 
