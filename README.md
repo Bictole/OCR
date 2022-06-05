@@ -1,4 +1,4 @@
-# OCR [![Cult Of Martians][cult-img]][cult]
+# OCR [![Profile][cult-img]][cult]
 
 <img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/logo.png" align="right" alt="The OCR Logo" width="180" height="180">
 
@@ -45,7 +45,7 @@ We are using [Statoscope] for this analysis.
 [GitHub action]: https://github.com/andresz1/size-limit-action
 [Statoscope]:    https://github.com/statoscope/statoscope
 [cult-img]:      http://cultofmartians.com/assets/badges/badge.svg
-[cult]:          http://cultofmartians.com/tasks/size-limit-config.html
+[cult]:          https://github.com/bictole
 
 ## Who Uses Size Limit
 
