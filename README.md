@@ -1,19 +1,18 @@
 # OCR [![Cult Of Martians][cult-img]][cult]
 
-<img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/logo.png" align="right" alt="The OCR Logo" width="120" height="178">
+<img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/logo.png" align="right" alt="The OCR Logo" width="180" height="180">
 
 OCR is an Optical Character Recognition made in C. The goal was to perform a binarization, a segmentation and send the matrices in a neural network to recognize the characters in an image.
 
-* **ES modules** and **tree-shaking** support.
-* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
-  or another CI system to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+We have :
+
+* **Black_White module** that is supposed to binarize the images into a black and white only image.
+* **Interface module** which contain the interface program, made with SDL 2.0
+* **Neural_Network module**, the machine learning part of the OCR.
+* **Reconstruction module**, this part comes after the segmentation and the neural network, where our code needs to reconstruct the initial text from the image into a buffer.
+* **Segmentation module** is the part of the program where the input image is segmented into different paragraphs, lines, words and finally letters and that send the pixels matrices into the neural network.
+* **Tools module**, contains several uselful tools, especially for the SDL library manipulation.
+
 
 <p align="center">
   <img src="./img/example.png" alt="Size Limit CLI" width="738">
