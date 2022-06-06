@@ -20,7 +20,9 @@ We have :
 
 ## How It Works
 
-The OCR contains a CLI tool which is used to demonstrate the **segmentation** part of the project. 
+The OCR contains a CLI tool which is used to demonstrate the **segmentation** part of the project.
+
+<img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/segmented.png" alt="Segmented image">
 
 ### Usage
 
