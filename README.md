@@ -43,12 +43,12 @@ or
 make properclean
 ```
 
-### Interface
+## Interface
 
 The interface is made with SDL 2.0, it's a really simple component that need to be refactored. Here is a diagram that demonstrate its usability.
 
 <img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/interface.png" alt="Interface">
 
-### Costs
+## Costs
 
 <img src="https://github.com/Bictole/OCR/blob/master/Test_img/readme_images/costs.png" alt="The outrageous Costs">
